@@ -33,7 +33,7 @@ class HstoreType extends Type
      */
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
     {
-        return 'HSTORE';
+        return 'hstore';
     }
 
     /**
