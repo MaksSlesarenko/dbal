@@ -54,6 +54,7 @@ abstract class Type
     const GUID = 'guid';
     const OID = 'oid';
     const HSTORE = 'hstore';
+    const JSON = 'json';
 
     /**
      * Map of already instantiated type objects. One instance per type (flyweight).
@@ -88,7 +89,8 @@ abstract class Type
         self::BLOB => 'Doctrine\DBAL\Types\BlobType',
         self::GUID => 'Doctrine\DBAL\Types\GuidType',
         self::OID => 'Doctrine\DBAL\Types\OidType',
-        self::HSTORE => 'Doctrine\DBAL\Types\HstoreType'
+        self::HSTORE => 'Doctrine\DBAL\Types\HstoreType',
+        self::JSON => 'Doctring\DBAL\Types\JsonType'
     );
 
     /**

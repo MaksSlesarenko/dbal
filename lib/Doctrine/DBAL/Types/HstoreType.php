@@ -33,15 +33,7 @@ class HstoreType extends Type
      */
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
     {
-        return $platform->getVarcharTypeDeclarationSQL($fieldDeclaration);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getDefaultLength(AbstractPlatform $platform)
-    {
-        return $platform->getVarcharDefaultLength();
+        return 'HSTORE';
     }
 
     /**
