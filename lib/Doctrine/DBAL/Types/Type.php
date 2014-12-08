@@ -90,7 +90,7 @@ abstract class Type
         self::GUID => 'Doctrine\DBAL\Types\GuidType',
         self::OID => 'Doctrine\DBAL\Types\OidType',
         self::HSTORE => 'Doctrine\DBAL\Types\HstoreType',
-        self::JSON => 'Doctring\DBAL\Types\JsonType'
+        self::JSON => 'Doctrine\DBAL\Types\JsonType'
     );
 
     /**

@@ -22,7 +22,7 @@ namespace Doctrine\DBAL\Types;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 
 /**
- * Hstore dummy type
+ * Json dummy type
  *
  * @since 2.0
  */
